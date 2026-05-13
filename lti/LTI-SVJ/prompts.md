@@ -106,3 +106,56 @@ Un resumen breve que refleje la esencia de la tarea. Debe ser lo suficientemente
 10. Historial de Cambios
 
 * Rastreo de Modificaciones: Un registro de todos los cambios realizados en el ticket, incluyendo actualizaciones de estado, reasignaciones y modificaciones en los detalles o prioridades.
+
+
+
+
+==================================================================
+==================================================================
+
+# INTENTO 1 GENERAR BACKLOG - copilot - github projects
+
+
+## PROMPT:
+
+# Instructions
+You are an expert in prompt engineering.
+Given the following prompt, prepare it using best-practice structure (role, objective, etc.) and formatting to achieve a precise and comprehensive result. Stick strictly to the requested objective by carefully analyzing what is asked in the original prompt. Make it in md so it's easier to copy-paste.
+
+# Original Prompt:
+Take all the info in the file named LTI-SVJ.md in this repository do the following:
+Create a github project calles ATS
+Create the User stories in the file.
+Create all the tasks in the file and make sure they properly linked to their user story.
+Do whatever you think it0s best to create a great backlog based on kanban metodology.
+
+## CONCLUSIONES:
+No funció por temas de que Tenia las issues disabled y de todas formas, una vez enabled  se quedó sin token y no hizo ningun delivery al final. 
+
+
+
+
+
+
+
+
+
+
+# INTENTO 2 GENERAR BACKLOG - OpenCode - Linear
+
+## PROMPT:
+
+# Instructions
+You are an expert in prompt engineering.
+Given the following prompt, prepare it using best-practice structure (role, objective, etc.) and formatting to achieve a precise and comprehensive result. Stick strictly to the requested objective by carefully analyzing what is asked in the original prompt. Make it in md so it's easier to copy-paste.
+
+# Original Prompt:
+I want you to create a backlog in Linear (you can use the MCP already configured) with the proper user stories and tasks  based on the following  markdown. Ask me anything you need to do it properly. Create a new project called ATS and create them there. 
+[markdown]
+
+
+(The [markdown] was the LTI-SVJ.md)
+
+## CONCLUSIONES:
+Funciono perfecto. Me hizo algunas preguntas antes de implementar y luego creo todo tal cual en linear ya que tenia el MCP conectado Y fue bastante rapido. 
+
